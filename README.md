@@ -9,6 +9,7 @@ It is mainly designed for Pterodactyl servers, but it also works with manual Lin
 In short:
 
 ```bash
+cd /ur/location/server/mainfolder
 sdev adoptserver
 sdev install-artifact --clean
 ```
