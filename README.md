@@ -1,3 +1,5 @@
+![[Sinners DEV Artifact Manager]](https://lychee.woodhosting.de/uploads/original/8e/5f/17b17d9e8d266a51c14e3674cf8a.png)
+
 # Sinners DEV. Artifact Manager
 
 **Sinners DEV. Artifact Manager** is a small Linux CLI tool for FiveM/RedM FXServer.
