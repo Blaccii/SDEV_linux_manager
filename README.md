@@ -9,10 +9,33 @@ It is mainly designed for Pterodactyl servers, but it also works with manual Lin
 In short:
 
 ```bash
-cd /ur/location/server/mainfolder
 sdev adoptserver
 sdev install-artifact --clean
 ```
+
+---
+
+## Important disclaimer
+
+Always create a backup before using this tool on a live server.
+
+Even though Sinners DEV. Artifact Manager is designed to update artifacts safely, every server setup is different. Wrong paths, custom folder structures, permission issues, interrupted downloads, or manual changes can always cause problems.
+
+Before your first use, and before every important artifact update, back up at least:
+
+```text
+server.cfg
+resources/
+txData/
+```
+
+If possible, also back up your current artifact folder:
+
+```text
+alpine/
+```
+
+You are responsible for your own server files. Never run artifact updates on a production server without a working backup.
 
 ---
 
