@@ -16,6 +16,30 @@ sdev install-artifact --clean
 
 ---
 
+## Wichtiger Disclaimer
+
+Erstelle immer ein Backup, bevor du dieses Tool auf einem Live-Server verwendest.
+
+Auch wenn Sinners DEV. Artifact Manager darauf ausgelegt ist, Artefakte möglichst sicher zu aktualisieren, ist jede Serverstruktur unterschiedlich. Falsche Pfade, eigene Ordnerstrukturen, Rechteprobleme, unterbrochene Downloads oder manuelle Änderungen können immer zu Problemen führen.
+
+Vor der ersten Nutzung und vor jedem wichtigen Artifact-Update solltest du mindestens sichern:
+
+```text
+server.cfg
+resources/
+txData/
+```
+
+Wenn möglich, sichere zusätzlich den aktuellen Artifact-Ordner:
+
+```text
+alpine/
+```
+
+Du bist selbst für deine Serverdateien verantwortlich. Führe Artifact-Updates auf einem produktiven Server niemals ohne funktionierendes Backup aus.
+
+---
+
 ## Warum Linux?
 
 Für FXServer-Hosting ist Linux meistens die bessere Wahl als Windows.
